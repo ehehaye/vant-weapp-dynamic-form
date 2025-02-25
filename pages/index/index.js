@@ -90,6 +90,10 @@ Page({
         type: 'date',
         format: 'yyyy-MM-dd',
         required: false,
+        // 2018/02/01
+        minDate: 1517414400458,
+        // 2025/02/01
+        maxDate: 1738339200458
       },
       {
         component: 'year-range-picker',
